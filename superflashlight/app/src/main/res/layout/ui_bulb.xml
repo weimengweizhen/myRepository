@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/framelayout_bulb"
+    android:visibility="gone">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView_bulb"
+        android:onClick="onClick_bulbCrossFade"
+        android:src="@drawable/bulb_cross_fade"/>
+
+    <cn.hongjing.superflashlight.widget.HideTextView
+        android:id="@+id/textview_hide_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="点击变亮"
+        android:textSize="20sp"/>
+</FrameLayout>
